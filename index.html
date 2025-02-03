@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cybersecurity Lab: Practical SOC & Penetration Testing Skills Development portfolio showcasing accomplishments, tools, and testing scenarios.">
+  <meta name="keywords" content="cybersecurity, SOC, penetration testing, Wireshark, Nmap, Hydra, UFW, Ubuntu">
+  <meta name="author" content="Your Name">
+  <title>Cybersecurity Lab Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-overlay">
+      <h1>Protect, Detect, Defend</h1>
+      <p>Mastering cybersecurity through hands-on SOC and penetration testing labs.</p>
+      <a href="#overview" class="cta-button">Explore the Project</a>
+    </div>
+  </header>
+
+  <!-- Project Overview Section -->
+  <section id="overview" class="overview">
+    <h2>Project Overview</h2>
+    <p>This project focuses on developing practical skills in Security Operations Center (SOC) and penetration testing. Key objectives include:</p>
+    <ul class="styled-list">
+      <li>Simulating real-world cyber attack scenarios.</li>
+      <li>Mastering tools like Wireshark, Nmap, and Hydra.</li>
+      <li>Implementing defensive measures using UFW and other technologies.</li>
+      <li>Documenting findings and refining incident response strategies.</li>
+    </ul>
+  </section>
+
+  <!-- Accomplishments Section -->
+  <section id="accomplishments" class="accomplishments">
+    <h2>Accomplishments</h2>
+    <div class="milestones">
+      <div class="milestone">
+        <span class="icon">✅</span>
+        <p>Completed 10+ simulated attack scenarios.</p>
+      </div>
+      <div class="milestone">
+        <span class="icon">🛡️</span>
+        <p>Implemented UFW firewall rules to secure a network.</p>
+      </div>
+      <div class="milestone">
+        <span class="icon">🔍</span>
+        <p>Analyzed network traffic using Wireshark.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Technologies & Tools Section -->
+  <section id="technologies" class="technologies">
+    <h2>Key Technologies & Tools</h2>
+    <div class="tools-grid">
+      <img src="ubuntu-logo.png" alt="Ubuntu">
+      <img src="wireshark-logo.png" alt="Wireshark">
+      <img src="nmap-logo.png" alt="Nmap">
+      <img src="hydra-logo.png" alt="Hydra">
+      <img src="ufw-logo.png" alt="UFW">
+    </div>
+  </section>
+
+  <!-- Sample Commands & Outputs Section -->
+  <section id="commands" class="commands">
+    <h2>Sample Commands & Outputs</h2>
+    <pre><code class="language-bash">
+# Nmap Scan Example
+nmap -sV 192.168.1.1
+
+# Output
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 7.6p1 Ubuntu 4
+80/tcp  open  http     Apache httpd 2.4.29
+    </code></pre>
+  </section>
+
+  <!-- Scenario Testing Documentation Section -->
+  <section id="scenarios" class="scenarios">
+    <h2>Scenario Testing Documentation</h2>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header">Scenario 1: Network Reconnaissance</button>
+        <div class="accordion-content">
+          <h3>Problem Description</h3>
+          <p>Identify open ports and services on a target system.</p>
+          <h3>Steps Taken</h3>
+          <ol>
+            <li>Used Nmap to scan the target IP.</li>
+            <li>Analyzed the output for open ports.</li>
+          </ol>
+          <h3>Expected vs. Actual Outcome</h3>
+          <table>
+            <tr>
+              <th>Expected</th>
+              <th>Actual</th>
+            </tr>
+            <tr>
+              <td>Port 22 (SSH) open</td>
+              <td>Port 22 (SSH) open</td>
+            </tr>
+            <tr>
+              <td>Port 80 (HTTP) open</td>
+              <td>Port 80 (HTTP) open</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- Add more scenarios as needed -->
+    </div>
+  </section>
+
+  <!-- Reflection Section -->
+  <section id="reflection" class="reflection">
+    <h2>Reflection</h2>
+    <p>This project taught me the importance of thorough documentation and adaptability in cybersecurity. Challenges included interpreting complex network traffic and refining firewall rules. Future improvements could involve automating repetitive tasks and exploring advanced penetration testing techniques.</p>
+  </section>
+
+  <!-- Portfolio Navigation & Sharing Options -->
+  <footer class="footer">
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#accomplishments">Accomplishments</a>
+      <a href="#technologies">Technologies</a>
+      <a href="#commands">Commands</a>
+      <a href="#scenarios">Scenarios</a>
+      <a href="#reflection">Reflection</a>
+    </nav>
+    <div class="social-links">
+      <a href="https://github.com/yourusername" class="github-button">View on GitHub</a>
+      <a href="#" class="share-button">Share Project</a>
+      <a href="mailto:youremail@example.com" class="contact-button">Contact Me</a>
+    </div>
+  </footer>
+</body>
+</html>
